@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jl² electronics services</title>
+       
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="shop.html">SHOP</a></li>   
+                        <li><a href="repair.html">REPAIR SERVICES</a></li>
+                        <li><a href="contact.html">C0NTACTS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="ShowMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>WELCOME TO<br>JL² ELECTRONICS SERVICES</h1>
+                    <p>Where the best technicians in the world are found. This is where all your gadgets are fixed with care!
+                      <br>We're here to help you breathe new life into electronic devices you thought were beyond repair</p>
+                    <a href="contact.html" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+
+        <!---- services ----->
+    
+        <section class="services">
+            <h3>SERVICES WE OFFER</h3>
+            <P>TV REPAIRING<br>RADIO REPAIRING<br>PHONE REPAIRING<br>WE SALE ELECTRONICS COMPONENTS<br>WE SALE TVs, RADIOS AND MANY MORE....</P>
+            <br>
+            <section>
+            <div class="slider">
+            <div class="slides">            
+                <img src="images/components/all comps.jpg" alt="all components">
+                <img src="images/components/panel with chips.jpg" alt="Panel">
+                <img src="images/phone repair/images (4).jpeg" alt="panl with components">
+                <img src="images/Televisions/tvs on store.jpg" alt="Television">
+                <img src="images/subwoofers/subwoofers.jpg" alt="subwoofers">
+                <img src="images/subwoofers/car sub.jpg" alt="car subwoofers">
+                <img src="images/Radios/rad2.jpg" alt="Radio">
+                <img src="images/backlights/ledpaneltcorn.jpeg" alt="LEDpaneltcorn">
+                <img src="images/phones/GSI.jpeg" alt="phones">
+                <img src="images/flick/flickering.jpeg" alt="tv">
+                <style>
+                    .slider{
+                        width: 100%;
+                        max-width: 700px;
+                        height: auto;
+                        overflow: hidden;
+                        position: center;
+                        padding-left: 35%;
+                        border-radius: 10px;
+                        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                    }
+                    .slides{
+                        display: flex;
+                        width: 100%;
+                        animation: slide 40s infinite;
+                    }
+                    .slides img{
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                    @keyframes slide{
+                        0%{transform: translateX(0);}
+                        33%{transform: translateX(-100%);}
+                        66%{transform: translateX(-200%);}
+                        88%{transform: translateX(-300%);}
+                        100%{transform: translateX(0);}
+                    }
+                    @media only screen and (max-width: 800px){
+    .slider{
+        width: 75%;
+        max-width: 700px;
+        height: auto;
+        overflow: hidden;
+        position: center;
+       
+    }
+    .slides{
+        display: flex;
+        width: 100%;
+        animation: slide 20s linear infinite;
+    }
+    .slides img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+@keyframes slide {
+                        80% {transform: translateX(-880%);} 
+                    }
+}
+                </style>
+            </div>
+        </div>
+        </section>
+                <br><br><br>
+                <div class="services-col">
+                    <h3>TELEVISION REPAIRING</h3>
+                    <p>LED TVs<br>LCD TVs<br>PLASMA TVs<br>etc</p>
+                    <img src="images/tv.jpg" alt="Television" width="250px" height="250px">
+                    <img src="images/components/mounted processor.jpg" alt="Panel" width="250px" height="250px">
+                    <img src="images/components/capacitors on panel.jpg" alt="Panel" width="250px" height="250px">
+                    <img src="images/panels/repair.jpeg" alt="panel" width="250px" height="250px">
+                </div>
+                <div class="services-col">
+                    <h3>RADIO REPAIRING</h3>
+                    <p>AMPLIFIERS<br>HOME THEATERS<br>DVDs<br>SPEAKERS<br>etc</p>
+                    <img src="images/subwoofers/sub1.jpg" alt="subwoofer" width="250px" height="250px">
+                    <img src="images/amplifiers/4amps.jpg" alt="Amp" width="250px" height="250px">
+                    <img src="images/Home theaters/sub.jpg" alt="Home Theaters" width="250px" height="250px">
+                    <img src="images/amplifiers/inputs.jpg" alt="Radio" width="250px" height="250px">
+                </div> 
+                <div class="services-col" >
+                    <h3>PHONE REPAIRING</h3>
+                    <P>TABLETS<br>SMART PH0NES<br>SMALL BUTTONED PHONES<br>etc</P>
+                    <img src="images/phone repair/images (4).jpeg" alt="samsung" width="250px" height="250px">
+                    <img src="images/phone repair/images (10).jpeg" alt="iphone" width="250px" height="250px">
+                    <img src="images/phone repair/images (13).jpeg" alt="tecno" width="250px" height="250px">
+                    <img src="images/phone repair/images (3).jpeg" alt="phones" width="250px" height="250px">  
+                    <img src="images/phone repair/images (4).png" alt="banner" width="250px" height="250px">
+                    <img src="images/phone repair/images (8).jpeg" alt="google pixel" width="250px" height="250px">
+                    <img src="images/phone repair/images (9).jpeg" alt="panel" width="250px" height="250px">
+                    <img src="images/phone repair/images (7).jpeg" alt="screen Replacement" width="250px" height="250px">
+                </div>         
+                <div class="services-col">
+                    <h3>STORE</h3>
+                    <p>TELEVISIONS<br>RADIOS<br>AMPLIFIERS<br>SPEAKERS<br>FRIDGES<br>LAPTOPS<br>PHONES<br>ELECTRONICS COMPONENTS</p>
+                    <img src="images/Televisions/hisense1.jpg" alt="Television" width="250px" height="250px">
+                    <img src="images/Televisions/3 tvs with boxes.jpg" alt="Television" width="250px" height="250px">
+                    <img src="images/components/combined components.jpg" alt="components" width="250px" height="250px">
+                    <img src="images/amplifiers/blue display.jpg" alt="Amplifier" width="250px" height="250px">  
+                    <img src="images/phones/cellphones.jpeg" alt="subwoofer" width="250px" height="250px">
+                    <img src="images/Radios/rad1.jpg" alt="Radio" width="250px" height="250px">
+                    <img src="images/components/panel with surfaces.jpg" alt="panel" width="250px" height="250px">
+                    <img src="images/Home theaters/boxed 4 and dvd.jpg" alt="home theater" width="250px" height="250px">
+                    </div>
+            </div>
+        </section><br><br>
+
+        <!---- Store ----->
+
+        <section class="Store">
+          <h2>Our Global Presence</h2>
+          <p>Explore our workshops around the world</p>
+            <div class="row">                
+                    <div class="Store-col">
+                        <img src="images/Workshops/germany.jpg">
+                        <div class="layer">
+                            <h3>SOUTH AFRICA</h3>
+                        </div>
+                        </div> 
+                        <div class="Store-col">
+                            <img src="images/Workshops/southafrica.jpg">
+                            <div class="layer">
+                                <h3>LONDON</h3>
+                            </div>
+                            </div>                  
+                        <div class="Store-col">
+                            <img src="images/Workshops/korea.jpg">
+                            <div class="layer">
+                                <h3>CHICAGO</h3>
+                            </div>
+                            </div>
+                        </div>
+        </section><br><br>
+
+        <!---- Workshops ----->
+
+        <section class="Workshop">
+            <h1>Our Local Workshops</h1>
+            <p>find our Workshops near you</p>
+            <div class="row">
+                <div class="Workshops-col">
+                    <img src="images/panels/crtpanel3 - Copy.jpeg">
+                    <h3>Convenient Locations</h3>
+                    <p>Our workshops are strategically located in central areas for easy access and quick service.</p>
+                </div>
+                <div class="Workshops-col">
+                    <img src="images/Workshops/london.jpg">
+                    <h3>International Standards</h3>
+                    <p>All our local workshops maintain the same high standards as our international locations.</p>
+                </div>
+                <div class="Workshops-col">
+                            <img src="images/Workshops/paris.jpg">
+                            <h3>Expert Technicians</h3>
+                            <p>Our local workshops are staffed with highly trained technicians with years of experience.</p>
+                       
+                </div>
+            </div>
+            </section>
+
+           <!------Testimonials------>
+
+           <section class="Testimonials" id="Testimonials">
+            <h1>What Our Customers Say</h1>
+            <div class="row">
+                <div class="testmonial-col">
+                    <img src="images/Jo.jpg">
+                    <div>
+                <p>"Excellent service! I bought a TV from JL² Electronics, and it was delivered quickly and in perfect condition. Highly recommend!"</p>
+                <h3>Jae</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="testmonial-col">
+                    <img src="images/me.jpg">
+                    <div>
+                <p>"My TV needed urgent repair, and JL² Electronics fixed it within a day. Impressive speed and quality!"</p>
+                <h3>Jaon</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>              
+            </div>
+           </section>
+
+          <!------- Call To Action ------->
+
+          <section class="cta">
+            <h1>Find Our Workshops<br>Anywhere From The World</h1>
+            <a href="About.html" class="hero-btn">CONTACT US</a>
+          </section>
+
+          <!------- Footer ------->
+    
+  <footer id="footer" class="footer ">
+    <!-- Footer Top -->
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer">
+              <h2>About Us</h2>
+              <p style="text-align: left; font-size: medium; padding-left: 0; padding-top: 0;">JL² Electronics Services is a locally grown business specializing in electronics sales and repair.<br>With years of experience and trusted expertise<br>We aim to make electronics affordable and accessible.</p>
+              <!-- Social -->
+              <ul class="social">
+                <li><a href="https://facebook.com/JA ON LU LE"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="jacksonluwaile@gmail.com"><i class="fab fa-google-plus"></i></a></li>
+                <li><a href="https://instagram.com/Jaonlule"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://wa.me/+260765201259"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://t.me/Jaonlule"><i class="fab fa-telegram"></i></a></li>
+              </ul>
+              <!-- End Social -->
+            </div>
+          </div>
+        <br><br>
+         <div class="col-lg-6 col-md-12 col-12">
+            <div class="single-footer f-link">
+              <h2>Quick Links</h2>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                  <ul>
+                    <li><a href="index.html" target="_blank"><i class="fa fa-caret-right"></i>Home</a></li>
+                    <li><a href="repair.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
+                    <li><a href="repair.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Shop</a></li>
+                    <li><a href="About.html"><i class="fa fa-caret-right" aria-hidden="true"></i>About</a></li>
+                    <li><a href="shop.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Electronics</a></li>	
+                  </ul>
+                </div>
+              
+                <div class="col-lg-6 col-md-6 col-12">
+                  <ul>
+                    <li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact</a></li>
+                    <li><a href="#Our Team"><i class="fa fa-caret-right" aria-hidden="true"></i>Team</a></li>
+                    <li><a href="#Testimonials"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
+                    <li><a href="About.html"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
+                    <li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>	
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+          <br>
+            <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer">
+              <h2>Open Hours</h2>
+              <p>Feel free to visit us. Our workshops are always open, six days in a week.</p>
+              <ul class="time-sidual">
+                <li class="day">Monday - Thursday <span>8:00-20:00</span></li>
+                <li class="day">Friday <span>8:00-17:00</span></li>
+                <li class="day">Saturday <span>9:00-15:00</span></li>
+                <li class="day">Sunday <span>Closed</span></li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer">
+              <h2>Newsletter</h2>
+              <p>Subscribe to our Newsletter to get all our News and Updates in your inbox.. </p>
+              <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+                <div class="form-container">
+                  <input name="email" placeholder="Email Address" class="" onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Your email address'" required="" type="email"><br><br>
+                 <button class="button"><i class="fab fa-telegram-plane"></i></button>
+                </div>
+                 </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <section class="Footer">
+            <p style="color: #fff;">Made With <i class="fa fa-heart"></i> By JACKSON LUWAILE | SIN:2305594805 <br><br><br> <br>INFORMATION AND COMMUNICATIONS UNIVERSITY</p>
+            <br><br><br><br><br>
+            <div> <p style="background: #03000c; color: #fff; text-align: center;">&copy; 2025 JL² Electronics Services. All Rights Reserved</p></div>
+          </section>
+
+    </body>
+
+           <!-------javaScript for Toggle Menu--------->
+
+           <script src="script.js" defer></script>
+           
+</html>

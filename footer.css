@@ -1,0 +1,207 @@
+/*=========================
+	Start Footer CSS
+===========================*/
+.footer{
+   position: relative;
+   display: column;
+}
+.footer .footer-top{
+	padding:50px;
+	position:relative;
+	background:#111;
+}
+
+.footer .footer-top .single-footer h2{
+	color: #fff;
+    height: 50hv;
+}
+.footer .single-footer .social{
+	margin-top:20px;
+    position: relative;
+}
+.footer .single-footer .social li{
+	display:inline-block;
+	margin-right:10px;
+}
+.footer .single-footer .social li:last-child{
+	margin-right:0px;
+}
+.footer .single-footer .social li a {
+	height: 35px;
+	width: 34px;
+	line-height: 34px;
+	text-align: center;
+	border: 1px solid #fff;
+	text-align: center;
+	padding: 0;
+	border-radius: 100%;
+	display: block;
+	color:#fff;
+	font-size: 16px;
+}
+.footer .single-footer .social li a:hover{
+	color:#1A76D1;
+	background:#fff;
+	border-color:transparent;
+}
+.footer .single-footer .social li a i{
+  padding-bottom: 50%;
+  position: relative;
+}
+.footer .single-footer.f-link li a i{
+	margin-right: 5px;
+  display: inline-block;
+  position: left;
+  color: #fff;
+}
+.footer .single-footer.f-link li{
+	display:block;
+	margin-bottom:2px;
+  padding-left: 0%;
+  margin-right: 60px;
+  
+}
+.footer .single-footer.f-link li:last-child{
+	margin:0;
+}
+.footer .single-footer.f-link li a {
+	display:flex;
+    justify-items: left;
+	color: #fff;
+	font-weight: 400;
+    padding-left: 0%;
+    text-decoration: none;
+}
+.footer .single-footer.f-link li a:hover{
+ color: #f1f507;
+ cursor: pointer;
+}
+.footer .single-footer h2{
+	color:#fff;
+	font-size:20px;
+	font-weight:600;
+	text-transform:capitalize;
+	margin-bottom:40px;
+	padding-bottom:20px;
+	position:relative;
+}
+.footer .single-footer h2::before{
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0px;
+	height: 3px;
+	width: 50px;
+	background: #fff;
+}
+.footer .single-footer .time-sidual{
+	margin-top:10px;
+    margin-left: 10px;
+	overflow:hidden;
+}
+.footer .single-footer .time-sidual li {
+	display: block;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 5px;
+    margin-left: 0;
+}
+.footer .single-footer .time-sidual li span{
+	display: inline-block;
+	float: right;
+    margin-right: 30px;
+}
+.footer .single-footer .day-head .time {
+	font-weight: 400;
+	float: right;
+}
+.footer .single-footer p{
+	color:#fff;
+}
+.footer .single-footer .newsletter-inner{
+	margin-top:28px;
+	position:relative;
+    block-size: 15px;
+    padding-left: 15px;
+}
+input{
+  color: #fff;
+  
+}
+
+.footer .single-footer .newsletter-inner input {
+	background: none;
+	border: 1px solid #fff;
+	height: 30px;
+	line-height: 50px;
+	width: 80%;
+	margin-right: 15px;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 30px;
+	display: inline-block;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-weight: 400;
+	border-radius: 15px;
+}
+.footer .single-footer .newsletter-inner input:hover{
+	padding-left: 30px;
+  border: 1px solid #2406ad;
+}
+.footer input::-webkit-input-placeholder {
+    opacity: 1;
+    color: #fff !important;
+}
+.footer input::input-placeholder {
+    opacity: 1;
+    color: #fff !important;
+}
+.footer .single-footer .newsletter-inner .button:hover{
+color: #090dee;
+border: 1px solid #090dee;
+}
+.footer .single-footer .newsletter-inner .button {
+  height: 35px;
+  padding-top: 0;
+  border-radius: 10px;
+}
+.footer .single-footer .newsletter-inner .button i{
+  display: block;
+  padding: 10px 10px;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.footer .single-footer .newsletter-inner .button:hover i{
+	color:#090dee;
+}
+.form-container{
+  display: flex;
+  justify-items:center;
+}
+.common-input{
+  width: 80%;
+}
+.footer .copyright{
+	background:#1A76D1;
+    position: flex;
+   justify-items: center;
+}
+.footer .copyright .copyright-content p{
+  color:#fff;
+  text-align: center;
+  display: flex;
+  justify-items:center;
+}
+.footer .copyright .copyright-content p a{
+	color:#fff;
+	font-weight:400;
+	text-decoration:underline;
+	display:inline-block;
+	margin-left:4px;
+}
+/*=========================
+	End Footer CSS
+===========================*/

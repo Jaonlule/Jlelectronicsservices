@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jl² electronics services</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="shop.html">SHOP</a></li>   
+                        <li><a href="repair.html">REPAIR SERVICES</a></li>
+                        <li><a href="contact.html">C0NTACTS</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="ShowMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>JL² ELECTRONICS SERVICES</h1>
+                    <p>Where best technicians are found in the World. This is where all your gadgets are fixed with care!
+                    <br>We are here as technicians to help you use again all your gadgets and electronic devices that you thought are dead and you were about to throw them.</p>
+                    <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+
+        <style>
+          /* About Page Styles */
+
+        .about-section {
+            padding: 100px 0;
+            background-color: var(--light);
+        }
+        
+        .about-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .about-image {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: var(--transition);
+        }
+        
+        .about-image:hover img {
+            transform: scale(1.05);
+        }
+        
+        .about-content {
+            padding: 30px;
+        }
+        
+        .about-content h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+        }
+        
+        .about-content p {
+            color: var(--gray);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .about-features {
+            margin-top: 30px;
+        }
+        
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(37, 99, 235, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 1.2rem;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .feature-text h4 {
+            color: var(--dark);
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        
+        .feature-text p {
+            margin-bottom: 0;
+        }
+        </style>
+
+ <!-- About Page -->
+
+ <div id="about-page">
+  <section class="about-section">
+      <div class="container">
+          <div class="section-title" data-aos="fade-up">
+              <h2>About Us</h2>
+              <p>Learn more about our company and what makes us different</p>
+          </div>
+          
+          <div class="about-container">
+              <div class="about-image" data-aos="fade-up" data-aos-delay="200">
+                  <img src="images/jaon.jpg" alt="Our Team">
+              </div>
+              
+              <div class="about-content" data-aos="fade-up" data-aos-delay="300">
+                  <h2>JL² Electronics Services</h2>
+                  <p>Founded in 2015, JL² Electronics Services has grown from a small local repair shop to a globally recognized electronics service provider with workshops across three continents.</p>
+                  <p>Our mission is to provide affordable, high-quality electronics repair and sales services while maintaining the highest standards of customer satisfaction and technical excellence.</p>
+                  
+                  <div class="about-features">
+                      <div class="feature-item">
+                          <div class="feature-icon">
+                              <i class="fas fa-medal"></i>
+                          </div>
+                          <div class="feature-text">
+                              <h4>Quality Service</h4>
+                              <p>We use only genuine parts and follow manufacturer specifications for all repairs.</p>
+                          </div>
+                      </div>
+                      
+                      <div class="feature-item">
+                          <div class="feature-icon">
+                              <i class="fas fa-users"></i>
+                          </div>
+                          <div class="feature-text">
+                              <h4>Expert Team</h4>
+                              <p>Our technicians undergo rigorous training and certification programs.</p>
+                          </div>
+                      </div>
+                      
+                      <div class="feature-item">
+                          <div class="feature-icon">
+                              <i class="fas fa-shield-alt"></i>
+                          </div>
+                          <div class="feature-text">
+                              <h4>Warranty Protection</h4>
+                              <p>All our repairs come with a comprehensive warranty for your peace of mind.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+        <br><br>
+        <section class="team-section" id="Team">
+          <br><br>
+          <h2>Our Team</h2>
+          <br>
+          <div class="team-grid">
+              <div class="team-member">
+                <br>
+                  <img src="images/Team/ceo.jpg" alt="CEO">
+                  <h4>JACKSON LUWAILE</h4>
+                  <p>CHIEF EXECTIVE OFFICER</p>
+                  <div class="team-member-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="jacksonluwaile@gmail.com"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="team-member">
+                <br>
+                  <img src="images/Team/manger.jpeg" alt="MANAGER">
+                  <h4>JOSHUA LANGENI</h4>
+                  <p>CHIEF FINANCIAL OFFICER</p>
+                  <div class="team-member-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="team-member">
+                <br>
+                  <img src="images/Team/managing.jpg" alt="MANGING-DIRECTOR">
+                  <h4>LABAN LUWAILE</h4>
+                  <p>CHIEF HUMAN RESOURCE OFFICER</p>
+                  <div class="team-member-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="team-member">
+                  <img src="images/Team/assistant.jpg" alt="ASSISTANT-DIRECTOR">
+                  <h4>PATIENCE KAPASHA</h4>
+                  <p>MANAGER</p>
+                  <div class="team-member-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="team-member">
+                  <img src="images/Team/director.jpg" alt="SUPERVISOR">
+                  <h4>JUNIOR JACKSON</h4>
+                  <p>SUPERVISOR</p>
+                  <div class="team-member-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="team-member">
+                  <img src="images/Team/secretry.jpg" alt="SECRETARY">
+                  <h4>SANDRA SKAYER</h4>
+                  <p>SECRETARY</p>
+                  <div class="team-member-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              
+          </div>
+          <br><br>
+      </section>
+    
+              <!------- Footer ------->
+    
+  <footer id="footer" class="footer ">
+    <!-- Footer Top -->
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer">
+              <h2>About Us</h2>
+              <p style="text-align: left; font-size: medium; padding-left: 0; padding-top: 0;">JL² Electronics Services is a locally grown business specializing in electronics sales and repair.<br>With years of experience and trusted expertise<br>We aim to make electronics affordable and accessible.</p>
+              <!-- Social -->
+              <ul class="social">
+                <li><a href="https://facebook.com/JA ON LU LE"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="jacksonluwaile@gmail.com"><i class="fab fa-google-plus"></i></a></li>
+                <li><a href="https://instagram.com/Jaonlule"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://wa.me/+260765201259"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://t.me/Jaonlule"><i class="fab fa-telegram"></i></a></li>
+              </ul>
+              <!-- End Social -->
+            </div>
+          </div>
+        <br><br>
+         <div class="col-lg-6 col-md-12 col-12">
+            <div class="single-footer f-link">
+              <h2>Quick Links</h2>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                  <ul>
+                    <li><a href="index.html" target="_blank"><i class="fa fa-caret-right"></i>Home</a></li>
+                    <li><a href="repair.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
+                    <li><a href="repair.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Shop</a></li>
+                    <li><a href="About.html"><i class="fa fa-caret-right" aria-hidden="true"></i>About</a></li>
+                    <li><a href="shop.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Electronics</a></li>	
+                  </ul>
+                </div>
+              
+                <div class="col-lg-6 col-md-6 col-12">
+                  <ul>
+                    <li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact</a></li>
+                    <li><a href="#Team"><i class="fa fa-caret-right" aria-hidden="true"></i>Team</a></li>
+                    <li><a href="#Testimonials"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
+                    <li><a href="About.html"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
+                    <li><a href="contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>	
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+          <br>
+            <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer">
+              <h2>Open Hours</h2>
+              <p>Feel free to visit us. Our workshops are always open, six days in a week.</p>
+              <ul class="time-sidual">
+                <li class="day">Monday - Thursday <span>8:00-20:00</span></li>
+                <li class="day">Friday <span>8:00-17:00</span></li>
+                <li class="day">Saturday <span>9:00-15:00</span></li>
+                <li class="day">Sunday <span>Closed</span></li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="single-footer">
+              <h2>Newsletter</h2>
+              <p>Subscribe to our Newsletter to get all our News and Updates in your inbox.. </p>
+              <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
+                <div class="form-container">
+                  <input name="email" placeholder="Email Address" class="" onfocus="this.placeholder = ''"
+                  onblur="this.placeholder = 'Your email address'" required="" type="email"><br><br>
+                 <button class="button"><i class="fab fa-telegram-plane"></i></button>
+                </div>
+                 </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <section class="Footer">
+            <p style="color: #fff;">Made With <i class="fa fa-heart"></i> By JACKSON LUWAILE | SIN:2305594805</p>
+            <br><br><br>
+            <div> <p style="background: #03000c; color: #fff; text-align: center;">&copy; 2025 JL² Electronics Services. All Rights Reserved</p></div>
+          </section>
+        
+    <!-------javaScript for Toggle Menu--------->
+    
+    <script src="script.js" defer>
+    </script>
+        </body>
+        </html>

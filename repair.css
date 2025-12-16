@@ -1,0 +1,68 @@
+        /*----- Request Repair Services -----*/
+
+section h2{
+    text-align: center;
+    font-size: 30px;
+}
+section p2{
+    color: #111f;
+    text-align: left;
+    font-weight: 500; 
+}
+form{
+    background-color: hsl(240, 9%, 86%);
+    border-radius: 30px;
+    padding: 50px;
+    text-align: left;
+    font-size: 30px;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+select{
+    width: 40%;
+    border-radius: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+select:hover{
+    transition: 1s;
+    opacity: 1;
+    background-color: #00f;
+    color: #fff;
+}
+textarea {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 50%;
+}
+form a{
+    color: #fff;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    background-color: #111;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10px;
+    block-size: 20px;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+form a:hover{
+    transition: 0.5s;
+    opacity: 1;
+    background-color: #00f;
+    color: #fff;
+}
+.footer p{
+    color: #fff;
+}
