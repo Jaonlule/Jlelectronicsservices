@@ -5,7 +5,7 @@
 .header{
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,38,0.7),rgba(4,9,38,0.7)),url(images/microchips.jpg);
+    background-image: linear-gradient(rgba(4,9,38,0.7),rgba(4,9,38,0.7)),url(microchips.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -646,4 +646,5 @@ h5{
 }
 .contacts p3{
     color: #c0c0c0;
+
 }
